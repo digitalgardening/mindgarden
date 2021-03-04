@@ -25,6 +25,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "debug": ">=2.6.9",
     "express": "^4.17.1",
     "hyperdrive": "^10.20.0",
     "hyperdrive-http": "^4.4.0",
