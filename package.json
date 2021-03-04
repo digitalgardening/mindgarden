@@ -1,6 +1,6 @@
 {
   "name": "mindgarden",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A digital garden 🌳for your mind.",
   "main": "load/server.js",
   "scripts": {
