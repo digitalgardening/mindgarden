@@ -13,7 +13,7 @@ Make pull requests to this README if you think it is boring or doesn't make sens
 
 `npm install mindgarden`
 
-I hope that works, lol. I forgot about npm things because I mostly work with WebAssembly on the client-side these days. I actually created Mind Garden, in part, because I have a lot of research to do for my day-thing involving WebAssembly. I'm not a node expert...please help me
+I'm not a node expert...please help me
 
 ## Issues 
 
