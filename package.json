@@ -1,6 +1,6 @@
 {
   "name": "mindgarden",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A digital garden 🌳for your mind.",
   "main": "load/server.js",
   "scripts": {
@@ -8,6 +8,9 @@
     "snowpack": "snowpack dev",
     "start": "npm run snowpack & npm run server ",
     "lint": "npx prettier --write ."
+  },
+  "bin": {
+    "mindgarden": "./start.sh"
   },
   "repository": {
     "type": "git",
@@ -31,3 +34,4 @@
     "snowpack": "^3.0.13"
   }
 }
+
