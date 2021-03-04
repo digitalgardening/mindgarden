@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+      body {
+        background: rgb(82, 86, 89);
+      }
+      iframe {
+        height: 90vh;
+        bottom: 0px;
+        position: absolute;
+        border: none;
+      }
+      button {
+        background: transparent;
+        color: black;
+        border: none;
+        outline: none;
+        font-size: 2em;
+        padding: 3px;
+        border-radius: 3px;
+        text-shadow: 0px 0px 20px white;
+        font-family: sans-serif;
+      }
+
+      button:hover {
+        text-shadow: 0px 0px 10px white;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <button onclick="document.getElementById('open-file-input').click()">
+        ➕
+      </button>
+    </center>
+    <input
+      type="file"
+      id="open-file-input"
+      style="display: none"
+      accept=".pdf,.xps,application/pdf"
+      onchange="openFile(event.target.files)"
+    /><br />
+    <iframe id="e" src="./IntroMLBook.pdf" width="100%" loading="lazy"></iframe>
+    <script>
+      let openFile = (file) => {
+        let e = document.getElementById("e");
+        e.style.display = "block";
+        e.src = URL.createObjectURL(file[0]);
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "mindgarden",
+  "version": "1.0.0",
+  "description": "A digital garden 🌳for your mind.",
+  "main": "load/server.js",
+  "scripts": {
+    "server": "node load/server.js",
+    "snowpack": "snowpack dev",
+    "start": "npm run snowpack & npm run server ",
+    "lint": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/digitalgardening/mindgarden"
+  },
+  "keywords": [
+    "zettelkatsen",
+    "garden"
+  ],
+  "author": "🌳",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hyperdrive": "^10.20.0",
+    "hyperdrive-http": "^4.4.0",
+    "snowpack": "^3.0.13"
+  }
+}

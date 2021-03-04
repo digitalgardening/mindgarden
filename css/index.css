@@ -1,0 +1,216 @@
+a {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  line-height: 150%;
+  font-family: "Segoe UI", "Apple Color Emoji", Arial, sans-serif,
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: underline;
+  padding: 3px;
+}
+
+a:link {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+a:visited {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+a:hover {
+  background: linear-gradient(#eee, #eee);
+  background-size: auto 4em;
+  background-repeat: no-repeat;
+  background-position: 0% 15px;
+}
+
+body {
+  font-family: "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif,
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: normal;
+  background-color: white;
+}
+
+label,
+h1 {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 52px;
+  font-variant: normal;
+  line-height: 1.1;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1.1;
+  font-weight: normal;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  line-height: 150%;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+code {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 17px;
+  font-family: monospace;
+  border-radius: 3px;
+  line-height: 1.25;
+}
+
+pre {
+  padding: 0px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 40px 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 20px;
+  line-height: 150%;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.nav {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #37352f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: #fff;
+  color: #37352f;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-size: 1px;
+  background-color: rgba(55, 53, 47, 0.08);
+  color: #37352f;
+}
+
+ul {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+li {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#invisible {
+  display: none;
+}
+
+#editme,
+#icon,
+#title,
+hr,
+.catlinks {
+  outline: none;
+  margin: 0 auto;
+}
+
+#editme,
+#icon,
+#title {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#title {
+  font-weight: bolder;
+  white-space: pre-wrap;
+  word-break: break-word;
+  caret-color: rgb(55, 53, 47);
+}
+
+#icon {
+  font-size: 6em;
+  padding-left: 0.1em;
+  cursor: grab;
+}
+
+#editme:empty:before {
+  font-size: 2em;
+}
+
+.editable:empty:before {
+  content: attr(data-placeholder);
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  color: #37352f;
+}
+
+#padding {
+  padding: 2em;
+}
+
+ul {
+  list-style-type: "✧";
+}
+
+li::marker {
+  font-size: 15px;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details {
+  user-select: none;
+}

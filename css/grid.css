@@ -1,0 +1,26 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+#flex-original,
+#flex-pdf,
+#flex-html {
+  flex: auto;
+  display: inline-block;
+}
+
+#flex-original {
+  position: relative;
+  width: 50%;
+}
+
+iframe {
+  width: 50%;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px green dashed;
+  height: 100%;
+  position: absolute;
+}

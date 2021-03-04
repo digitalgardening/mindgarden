@@ -1,0 +1,15 @@
+{
+  "name": "neon",
+  "collaborators": [
+    "🐢"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "neon_bg.wasm",
+    "neon.js",
+    "neon.d.ts"
+  ],
+  "module": "neon.js",
+  "types": "neon.d.ts",
+  "sideEffects": false
+}
