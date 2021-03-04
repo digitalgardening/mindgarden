@@ -28,4 +28,10 @@ app.get("/browse", function (req, res) {
   });
 });
 
-app.listen(3000);
+if (!module.parent) {
+  // if not requiring this file, then this file is being run directly.
+  // and the server should be started up
+  app.listen(3000);
+}
+
+module.exports = app
