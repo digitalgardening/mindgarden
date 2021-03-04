@@ -4,7 +4,6 @@
   "description": "A digital garden 🌳for your mind.",
   "main": "load/server.js",
   "scripts": {
-    "dev": "npm run snowpack & npm run server ",
     "server": "node load/server.js",
     "lint": "npx prettier --write .",
     "start": "./start.js"
