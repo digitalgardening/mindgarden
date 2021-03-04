@@ -42,7 +42,7 @@ After that, type
 to get started 🌳.
 
 ### Prerequisites
-You need [Node](https://nodejs.org/en/download/) on your system, an [OS](http://markburgess.org/os/os.pdf) with a [terminal,](https://launchschool.com/books/command_line) and a browser with WebAssembly enabled.
+You need [Node](https://nodejs.org/en/download/) on your system, an [OS](http://markburgess.org/os/os.pdf) with a [terminal,](https://launchschool.com/books/command_line) and a browser with [WebAssembly](https://webassembly.org/) enabled.
 
 
 ### Linting
