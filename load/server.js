@@ -1,31 +1,28 @@
 let Hyperdrive = require("hyperdrive");
-let drive = new Hyperdrive("./digital-garden");
+let archive = new Hyperdrive("./digital-garden");
 let cors = require("cors");
 let express = require("express");
 let app = express();
-const os = require("os");
-const bodyParser = require("body-parser");
+let bodyParser = require("body-parser");
 app.use(bodyParser.text({ type: "text/html" }));
 app.use(cors());
-
-const onrequest = require("hyperdrive-http");
 
 app.get("/", function (req, res) {
   res.send("💌");
 });
 
 app.post("/", function (req, res) {
-  drive.writeFile(`/seeds/${Date()}.html`, req.body, function (err) {
+  archive.writeFile(`/seeds/${Date()}.html`, req.body, function (err) {
     if (err) throw err;
   });
 });
 
+let onrequest = require("hyperdrive-http");
+
 app.get("/browse", function (req, res) {
-  drive.ready(function (err) {
-    if (err) throw err;
-    console.log("whee ✵ " + drive.key.toString("hex"));
-    onrequest(drive);
-  });
+  console.log("whee ✵ " + archive.key.toString("hex"));
+  let onreq = onrequest(archive);
+  onreq(req, res);
 });
 
 app.listen(3000);
