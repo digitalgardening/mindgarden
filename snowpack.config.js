@@ -8,7 +8,6 @@ module.exports = {
   devOptions: {
     port: 8080,
     hostname: "localhost",
-    open: "Chrome",
     hmrErrorOverlay: false,
   },
   buildOptions: {
