@@ -13,8 +13,32 @@ Make pull requests to this README if you think it is boring or doesn't make sens
 
 `npm install mindgarden`
 
-I'm not a node expert...please help me
+[I'm not a node expert...please help me.](https://github.com/digitalgardening/mindgarden/blob/main/load/server.js)
 
 ## Issues 
 
-I am not a node expert. I figured out how to save files but not how to then view the files saved. Please help me.
+I am not a node expert. I figured out how to save files but not how to then view the files saved. [Please help me.](https://github.com/digitalgardening/mindgarden/blob/main/load/server.js)
+
+This is an excerpt from `load/server.js` which exhibits my inability to finish this project essentially:
+
+```
+const onrequest = require("hyperdrive-http"); // I think mafintosh wrote this in the tests fot hyperdrive-http but I butchered it
+
+// later on...after all the imports
+
+app.get("/browse", function (req, res) {
+
+drive.ready(function (err) {
+
+if (err) throw err;
+
+console.log("whee ✵ " + drive.key.toString("hex"));
+
+onrequest(drive); //this doesn't work. I don't know what I did
+
+});
+
+});
+
+```
+      
