@@ -22,7 +22,7 @@ I am not a node expert. I figured out how to save files but not how to then view
 This is an excerpt from `load/server.js` which exhibits my inability to finish this project essentially:
 
 ```
-const onrequest = require("hyperdrive-http"); // I think mafintosh wrote this in the tests fot hyperdrive-http but I butchered it
+const onrequest = require("hyperdrive-http"); // saw this in tests for hyperdrive-http but I butchered it
 
 // later on...after all the imports
 
