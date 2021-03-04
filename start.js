@@ -9,9 +9,8 @@ server.listen(3000)
 startSnowpackDev()
 
 async function startSnowpackDev () {
-  const config = await loadConfiguration(path.resolve(__dirname, './snowpack.config.js'))
+  const config = await loadConfiguration('')
 
   const server = await startServer({ config })
   console.log('woop')
 }
-
