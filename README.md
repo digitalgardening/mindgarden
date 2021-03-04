@@ -49,9 +49,6 @@ In order to lint the module for development purposes, you need can run `npm run 
 ## 🎈 Usage <a name="usage"></a>
 When you run `mindgarden` after and navigate to `localhost:3000` in a WebAssembly enabled browser, you can start writing notes.
 
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
-
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [express](https://expressjs.com/) - Server framework
