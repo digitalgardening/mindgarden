@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 
-const { loadConfiguration, startServer } = require('snowpack')
-const path = require('path')
+const server = require("./load/server");
+server.listen(3000);
 
-const server = require('./load/server')
-server.listen(3000)
 
-startSnowpackDev()
+let path = require("path");
+let express = require("express");
+let serve = express();
+serve.use(express.static(path.join(__dirname, "/")));
 
-async function startSnowpackDev () {
-  const config = await loadConfiguration('')
+serve.get("/", function (req, res, next) {
+  res.sendFile(path.join(__dirname, "/index.html"));
+});
 
-  const server = await startServer({ config })
-  console.log('woop')
-}
+serve.listen(8080);

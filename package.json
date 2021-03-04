@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "npm run snowpack & npm run server ",
     "server": "node load/server.js",
-    "snowpack": "snowpack dev",
-    "lint": "npx prettier --write ."
+    "lint": "npx prettier --write .",
+    "start": "./start.js"
   },
   "bin": {
     "mindgarden": "./start.js"
@@ -30,7 +30,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "hyperdrive": "^10.20.0",
-    "hyperdrive-http": "^4.4.0",
-    "snowpack": "^3.0.13"
+    "hyperdrive-http": "^4.4.0"
   }
 }
