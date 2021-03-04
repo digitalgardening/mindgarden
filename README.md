@@ -15,7 +15,6 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [Authors](#authors)
@@ -28,14 +27,19 @@ Mind Garden is about making this world (of computers and thought) what we would 
 
 
 
-
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-First, [install Node.](https://nodejs.org/en/download/)
+First, make sure [Node](https://nodejs.org/en/download/) is installed.
 
-Second, type this in your terminal: `npm i -g mindgarden`.
+Second, type this in your [terminal](https://launchschool.com/books/command_line): 
 
-After that, type `mindgarden` to get started 🌳
+`npm i -g mindgarden`
+
+After that, type 
+
+`mindgarden` 
+
+to get started 🌳.
 
 ### Prerequisites
 You need [Node](https://nodejs.org/en/download/) on your system, an [OS](http://markburgess.org/os/os.pdf) with a [terminal,](https://launchschool.com/books/command_line) and a browser with WebAssembly enabled.
