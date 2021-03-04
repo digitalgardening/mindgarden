@@ -18,8 +18,6 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -42,55 +40,27 @@ After that, type `mindgarden` to get started 🌳
 ### Prerequisites
 You need [Node](https://nodejs.org/en/download/) on your system, an [OS](http://markburgess.org/os/os.pdf) with a [terminal,](https://launchschool.com/books/command_line) and a browser with WebAssembly enabled.
 
-### Installing
-A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+### Linting
 
-```
-Give the example
-```
+In order to lint the module for development purposes, you need can run `npm run lint`. This script formats all files with [Prettier](https://prettier.io/).
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
+When you run `mindgarden` after and navigate to `localhost:3000` in a WebAssembly enabled browser, you can start writing notes.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [Express](https://expressjs.com/) - Server framework
+- [express](https://expressjs.com/) - Server framework
 - [web-sys](https://rustwasm.github.io/wasm-bindgen/api/web_sys/) - Web framework in Rust
 - [wasm-pack](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm) - Rust to WebAssembly compiler
-- [NodeJS](https://nodejs.org/en/) - Server environment
+- [Node JS](https://nodejs.org/en/) - Server environment
 
 ## ✍️ Authors <a name = "authors"></a>
-- [ender](https://github.com/genderev) - Idea & Initial work
+- [Ender](https://github.com/genderev) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/digitalgardening/mindgarden/contributors) who participated in this project.
 
