@@ -55,10 +55,10 @@ When you run `mindgarden` after and navigate to `localhost:3000` in a WebAssembl
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [express](https://expressjs.com/) - Server framework
-- [web-sys](https://rustwasm.github.io/wasm-bindgen/api/web_sys/) - Web framework in Rust
+- [express](https://expressjs.com/) - server framework
+- [web-sys](https://rustwasm.github.io/wasm-bindgen/api/web_sys/) - web framework in Rust
 - [wasm-pack](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm) - Rust to WebAssembly compiler
-- [Node JS](https://nodejs.org/en/) - Server environment
+- [node](https://nodejs.org/en/) - server environment
 
 ## ✍️ Authors <a name = "authors"></a>
 - [Ender](https://github.com/genderev) - Idea & Initial work
