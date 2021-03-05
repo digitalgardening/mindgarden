@@ -27,7 +27,7 @@ The point of [Mind Garden](https://www.npmjs.com/package/mindgarden) is to make 
 
 First, make sure [Node](https://nodejs.org/en/download/) is installed.
 
-Second, type this in your [terminal](https://launchschool.com/books/command_line):
+Then, type this in your [terminal](https://launchschool.com/books/command_line):
 
 `npm i -g mindgarden`
 
