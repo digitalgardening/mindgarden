@@ -3,7 +3,6 @@
   <head>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/menu.css" />
-    <link rel="stylesheet" href="css/grid.css" />
 
     <meta charset="utf-8" />
     <title>Mind Garden 🌳</title>
@@ -15,12 +14,11 @@
           role="menuitem"
           aria-haspopup="false"
           aria-label="close menu"
-          id="archiveFile"
+          id="transclude"
           tabindex="0"
         >
           🔗
         </li>
-
         <li
           role="menuitem"
           aria-haspopup="false"
@@ -47,6 +45,7 @@
             </li>
           </ul>
         </li>
+  
         <li
           role="menuitem"
           aria-haspopup="false"
@@ -58,6 +57,7 @@
         </li>
       </ul>
       <ul id="menubar2" role="menubar" aria-label="Text Insertion">
+
         <li
           role="menuitem"
           aria-haspopup="false"
@@ -85,6 +85,27 @@
         >
           •
         </li>
+
+        <li
+          role="menuitem"
+          aria-haspopup="false"
+          aria-label="close menu"
+          id="search"
+          tabindex="0"
+        >
+          🔎
+        </li>
+
+        <li
+          role="menuitem"
+          aria-haspopup="false"
+          aria-label="multiple windows"
+          id="newWindow"
+          tabindex="0"
+        >
+          📚
+        </li>
+
         <li
           role="menuitem"
           aria-haspopup="false"
@@ -114,9 +135,19 @@
           class="editable"
           contenteditable
           data-placeholder="Type / for commands"
+          spellcheck="false"
         ></main>
         <br /><br />
         <br /><br />
+        <button
+          role="menuitem"
+          aria-haspopup="false"
+          id="archiveThis"
+          aria-label="save file"
+          tabindex="0"
+        >
+          💾
+        </button>
       </div>
 
       <script src="js/index.js" type="module"></script>

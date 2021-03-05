@@ -207,10 +207,9 @@ li::marker {
   font-size: 15px;
 }
 
-details > summary::-webkit-details-marker {
-  display: none;
-}
-
-details {
+#archiveThis{
+  font-size: 1.5em;
+  text-align: right;
+  border: none;
   user-select: none;
 }

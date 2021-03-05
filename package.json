@@ -1,10 +1,9 @@
 {
   "name": "mindgarden",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "A digital garden 🌳 for your mind.",
   "main": "load/server.js",
   "scripts": {
-    "server": "node load/server.js",
     "lint": "npx prettier --write .",
     "start": "./start.js"
   },
@@ -19,7 +18,7 @@
     "zettelkatsen",
     "garden"
   ],
-  "author": "🌳",
+  "author": "Ender",
   "license": "MIT",
   "devDependencies": {
     "prettier": "2.2.1"
@@ -28,7 +27,6 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "hyperdrive": "^10.20.0",
-    "hyperdrive-http": "^4.4.0"
+    "fs-extra": "^9.1.0"
   }
 }
