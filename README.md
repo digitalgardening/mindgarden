@@ -21,7 +21,7 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-The point of [Mind Garden](https://www.npmjs.com/package/mindgarden) is making this world (of computers and thought) what we would like it to be. [To tend to your internal garden is to take care of your mind.](https://nesslabs.com/mind-garden)
+The point of [Mind Garden](https://www.npmjs.com/package/mindgarden) is to make this world of computers and thought what we would like it to be. [To tend to your internal garden is to take care of your mind.](https://nesslabs.com/mind-garden)
 
 > "[L]et us forge directly toward the Screen Future, and the creation of screenworlds we will love to live in."
 
