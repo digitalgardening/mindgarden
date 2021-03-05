@@ -47,7 +47,7 @@ You need [Node](https://nodejs.org/en/download/) on your system, an [OS](http://
 
 ### Linting
 
-In order to lint the module for development purposes, you need can run `npm run lint`. This script formats all files with [Prettier](https://prettier.io/).
+In order to lint the module for development purposes, you can run `npm run lint`. This script formats all files with [Prettier](https://prettier.io/).
 
 
 ## 🎈 Usage <a name="usage"></a>
