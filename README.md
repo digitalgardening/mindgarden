@@ -21,7 +21,7 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Mind Garden is about making this world (of computers and thought) what we would like it to be. [To tend to your internal garden is to take care of your mind.](https://nesslabs.com/mind-garden)
+The point of Mind Garden is making this world (of computers and thought) what we would like it to be. [To tend to your internal garden is to take care of your mind.](https://nesslabs.com/mind-garden)
 
 > "[L]et us forge directly toward the Screen Future, and the creation of screenworlds we will love to live in."
 
@@ -56,8 +56,8 @@ When you run `mindgarden` and navigate to `localhost:3000` in a [WebAssembly](ht
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [express](https://expressjs.com/) - server framework
-- [web-sys](https://rustwasm.github.io/wasm-bindgen/api/web_sys/) - web framework in Rust
-- [wasm-pack](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm) - Rust to WebAssembly compiler
+- [web-sys](https://rustwasm.github.io/wasm-bindgen/api/web_sys/) - web framework in [Rust](https://doc.rust-lang.org/stable/rust-by-example/)
+- [wasm-pack](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm) - [Rust](https://doc.rust-lang.org/stable/rust-by-example/) to [WebAssembly](https://webassembly.org/) compiler
 - [node](https://nodejs.org/en/) - server environment
 
 ## ✍️ Authors <a name = "authors"></a>
