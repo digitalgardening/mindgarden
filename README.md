@@ -2,14 +2,18 @@
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://raw.githubusercontent.com/digitalgardening/mindgarden/main/assets/tree.png" alt="Mind Garden Logo"></a>
 </p>
-
-<h3 align="center">Mind Garden</h3>
-
----
-
-<p align="center"> Mind Garden is a note-taking app where <a href="https://maggieappleton.com/garden-history">notes link to other notes that touch on similar themes and topics</a>.
+<h2 align="center">Mind Garden</h2>
+<p align="center"> Mind Garden is a note-taking app where <a href="https://maggieappleton.com/garden-history">notes link to other notes that touch on similar themes and topics.</p>
     <br>
 </p>
+<hr/>
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/digitalgardening/mindgarden/main/assets/demo.png"
+         alt="Mind Garden screenshot" height="300"> <br><span> A screenshot from Mind Garden </span>
+</p>
+
 
 ## 📝 Table of Contents
 
