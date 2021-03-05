@@ -19,7 +19,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-The point of [Mind Garden](https://www.npmjs.com/package/mindgarden) is to make this world of computers and thought what we would like it to be. [To tend to your internal garden is to take care of your mind.](https://nesslabs.com/mind-garden)
+The point of [Mind Garden](https://www.npmjs.com/package/mindgarden) is to make this world of computers and thought what we would like it to be. 
 
 > "[L]et us forge directly toward the Screen Future, and the creation of screenworlds we will love to live in."
 
@@ -66,5 +66,5 @@ See also the list of [contributors](https://github.com/digitalgardening/mindgard
 
 - Maggie Appleton's [work](https://maggieappleton.com/garden-history) on [digital gardens](https://maggieappleton.com/evergreens)
 - Ted Nelson's [life and work](https://maggieappleton.com/xanadu-patterns) shaping [hypertext](https://monoskop.org/File:Nelson_Ted_Literary_Machines_c1987_chs_0-1.pdf)
-
+- The name for Mind Garden comes from [Anne-Laure Le Cunff.](https://nesslabs.com/mind-garden)
 > "[B]y hypertext I mean non-sequential writing — text that branches and allows choices to the reader, best read at an interactive screen...a framework of reunification."
