@@ -8,12 +8,6 @@
 </p>
 
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/digitalgardening/mindgarden/main/assets/demo.png"
-         alt="Mind Garden screenshot" height="300"> 
-</p>
-
-
 ## 📝 Table of Contents
 
 - [About](#about)
