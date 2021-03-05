@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://raw.githubusercontent.com/digitalgardening/mindgarden/main/assets/tree.png" alt="Mind Garden Logo"></a>
 </p>
 <h2 align="center">Mind Garden</h2>
-<p align="center"> Mind Garden is for taking <a href="https://maggieappleton.com/garden-history">notes that link to other notes.</a></p>
+<p align="center"> Mind Garden helps you take <a href="https://maggieappleton.com/garden-history">notes that link to other notes.</a></p>
     <br>
 </p>
 
