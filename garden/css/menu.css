@@ -19,8 +19,7 @@ ul[role="menubar"] li {
 }
 
 button,
-input[type="text"],
- {
+input[type="text"] {
   font-family: "Segoe UI", Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   border: 0px transparent;
@@ -28,8 +27,7 @@ input[type="text"],
   padding: 0.3em;
 }
 
-input[type="text"],
-{
+input[type="text"] {
   border: dashed brown 1px;
 }
 
@@ -106,10 +104,10 @@ input[type="link"] {
 
 .hover {
   display: none;
-  border-radius: .5em;
-  border: 1.5px dashed seagreen;
+  border-radius: 0.5em;
+  border: 1.5px dashed black;
   position: absolute;
-  transform: scale(0.5) translate(-10%,-50%);
+  transform: scale(0.5) translate(-10%, -160%);
 }
 
 a:hover + .hover {

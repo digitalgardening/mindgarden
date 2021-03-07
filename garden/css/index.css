@@ -177,37 +177,30 @@ hr,
   word-break: break-word;
   caret-color: rgb(55, 53, 47);
 }
-
 #icon {
   font-size: 6em;
   padding-left: 0.1em;
   cursor: grab;
 }
-
 #editme:empty:before {
   font-size: 2em;
 }
-
 .editable:empty:before {
   content: attr(data-placeholder);
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
   color: #37352f;
 }
-
 #padding {
   padding: 2em;
 }
-
 ul {
-  list-style-type: "✧";
+  list-style-image: url('bullet.png');
 }
-
 li::marker {
   font-size: 15px;
 }
-
-#archiveThis{
+#archiveThis {
   font-size: 1.5em;
   text-align: right;
   border: none;

@@ -12,6 +12,7 @@
         bottom: 0px;
         position: absolute;
         border: none;
+        display: none;
       }
       button {
         background: transparent;
@@ -43,7 +44,7 @@
       accept=".pdf,.xps,application/pdf"
       onchange="openFile(event.target.files)"
     /><br />
-    <iframe id="e" src="./IntroMLBook.pdf" width="100%" loading="lazy"></iframe>
+    <iframe id="e" src="" width="100%" loading="lazy"></iframe>
     <script>
       let openFile = (file) => {
         let e = document.getElementById("e");
