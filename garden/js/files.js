@@ -18,24 +18,46 @@ window.onload = function () {
         openWebPage();
         break;
       default:
-        openHtml("new.html");
+        openHtml("index.html");
     }
     addCss("css/grid.css");
   };
 
   let openPdf = () => {
-    document.getElementById("flex-html").style.display = "none";
+    if (document.getElementById("flex-html")) {
+      document.getElementById("flex-html").style.display = "none";
+    }
+
+    let flex = document.createElement("iframe");
+    flex.setAttribute("loading", "lazy");
+    flex.setAttribute("height", "100%");
+    flex.setAttribute("width", "100%");
+    flex.id = "flex-pdf";
+    flex.src = "load/pdf.html";
+    document.body.append(flex);
     document.getElementById("flex-pdf").style.display = "inline-block";
   };
 
-  let openWebPage = () =>{
-    let pageUrl = prompt("What page do you want to open?","https://www.wikipedia.org/");
+  let openWebPage = () => {
+    let pageUrl = prompt(
+      "What page do you want to open?",
+      "https://www.wikipedia.org/"
+    );
     openHtml(pageUrl);
-  }
+  };
 
-  let openHtml = (src) => {
-    document.getElementById("flex-pdf").style.display = "none";
-    document.getElementById("flex-html").src = src;
+  let openHtml = (url) => {
+    if (document.getElementById("flex-pdf")) {
+      document.getElementById("flex-pdf").style.display = "none";
+    }
+
+    let flex = document.createElement("iframe");
+    flex.setAttribute("loading", "lazy");
+    flex.setAttribute("height", "100%");
+    flex.setAttribute("width", "100%");
+    flex.id = "flex-html";
+    flex.src = url;
+    document.body.append(flex);
     document.getElementById("flex-html").style.display = "inline-block";
   };
 

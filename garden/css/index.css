@@ -195,7 +195,7 @@ hr,
   padding: 2em;
 }
 ul {
-  list-style-image: url('bullet.png');
+  list-style-image: url("bullet.png");
 }
 li::marker {
   font-size: 15px;

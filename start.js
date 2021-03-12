@@ -3,6 +3,8 @@
 let path = require("path");
 let os = require("os");
 let fs = require("fs-extra");
+let fsp = require("fs/promises");
+let copy = require("recursive-copy");
 let cors = require("cors");
 let express = require("express");
 let app = express();
@@ -12,6 +14,7 @@ app.use(cors());
 const home = path.join(__dirname, "/garden");
 
 let writeFile = (path, text) => {
+  //TODO: change from callback to promise
   fs.writeFile(path, text, (err) => {
     if (err) console.log(err);
     else {
@@ -45,6 +48,44 @@ app.get("/all", function (req, res) {
   res.send(
     `<html><body><head><style>body, a{font-family:sans-serif;font-size:80%;}</style></head><h1>Seeds 🌱</h1><br>${fileList}</body></html>`
   );
+});
+
+app.get("/export", async function (req, res) {
+  let newPath = path.join(os.homedir(), "/garden");
+  let oldIndex = path.join(os.homedir(), "/garden/js/index.js");
+  let newIndex = path.join(os.homedir(), "/garden/js/link.js");
+
+  let options = {
+    filter: [
+      "**",
+      "!**/**g.wasm",
+      "!**/**n.js",
+      "!**/**s.js",
+      "!**/**x.js",
+      "!**/**d.css",
+      "!**/**f.html",
+      "!index.html",
+    ],
+  };
+
+  let afterCopied = async () => {
+    await Promise.all([
+      fs.remove(path.join(os.homedir(), "/garden/js/pkg")),
+      fs.remove(path.join(os.homedir(), "/garden/load")),
+      fsp.rename(newIndex, oldIndex),
+    ]);
+  };
+
+  copy(home, newPath, options)
+    .then(function (results) {
+      console.info("Copied " + results.length + " files");
+      afterCopied();
+    })
+    .catch(function (error) {
+      console.error("Copy failed: " + error);
+    });
+
+  res.send("⚗︎");
 });
 
 app.listen(3000);
