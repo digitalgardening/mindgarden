@@ -48,6 +48,8 @@ In order to lint the module for development purposes, you can run `npm run lint`
 
 When you run `mindgarden` and navigate to `localhost:3000` in a [WebAssembly](https://webassembly.org/) enabled browser, you can start writing notes.
 
+To export your notes, type `localhost:3000/export` in your browser. Your notes will be saved in your home folder within a folder named `garden`. 
+
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [express](https://expressjs.com/) - server framework
