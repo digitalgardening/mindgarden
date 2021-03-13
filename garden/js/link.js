@@ -49,7 +49,7 @@ let display = (linkGraph) => {
     for (const item in inboundLinks) {
       let p = document.createElement("p");
       p.innerHTML = `&#x2734; Referenced in <a href="${inboundLinks[item][1]}">${inboundLinks[item][0]}</a><iframe src="${inboundLinks[item][1]}" loading="lazy" class="hover" width="50%" height="100%"></iframe>`;
-      document.getElementById("padding").append(p);
+      document.getElementById("editme").append(p);
     }
   } else {
     console.log("No inbound links.");
