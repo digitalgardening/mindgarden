@@ -1,8 +1,8 @@
 {
   "name": "mindgarden",
-  "version": "1.0.9",
+  "version": "1.1.2",
   "description": "A digital garden 🌳 for your mind.",
-  "main": "load/server.js",
+  "main": "start.js",
   "scripts": {
     "lint": "npx prettier --write .",
     "start": "./start.js"
@@ -18,7 +18,7 @@
     "zettelkatsen",
     "garden"
   ],
-  "author": "Ender",
+  "author": "ender",
   "license": "MIT",
   "devDependencies": {
     "prettier": "2.2.1"
