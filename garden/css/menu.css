@@ -113,3 +113,9 @@ input[type="link"] {
 a:hover + .hover {
   display: block;
 }
+
+[aria-label="Text Insertion"]{
+/* inital menu position before moved by mouse */
+  top: 24%;
+  left: 2.5%;
+}
