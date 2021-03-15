@@ -65,7 +65,6 @@ See also the list of [contributors](https://github.com/digitalgardening/mindgard
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Maggie Appleton's [work](https://maggieappleton.com/garden-history) on [digital gardens](https://maggieappleton.com/evergreens)
 - Ted Nelson's [life and work](https://maggieappleton.com/xanadu-patterns) shaping [hypertext](https://monoskop.org/File:Nelson_Ted_Literary_Machines_c1987_chs_0-1.pdf)
 - The name for Mind Garden comes from [Anne-Laure Le Cunff.](https://nesslabs.com/mind-garden)
   > "[B]y hypertext I mean non-sequential writing — text that branches and allows choices to the reader, best read at an interactive screen...a framework of reunification."
