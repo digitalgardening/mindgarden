@@ -65,5 +65,5 @@ See also the list of [contributors](https://github.com/digitalgardening/mindgard
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Ted Nelson's [life and work](https://maggieappleton.com/xanadu-patterns) shaping [hypertext](https://monoskop.org/File:Nelson_Ted_Literary_Machines_c1987_chs_0-1.pdf)
+- Ted Nelson's [life and work](https://www.wired.com/1995/06/xanadu/) shaping [hypertext](https://monoskop.org/File:Nelson_Ted_Literary_Machines_c1987_chs_0-1.pdf)
   > "[B]y hypertext I mean non-sequential writing — text that branches and allows choices to the reader, best read at an interactive screen...a framework of reunification."
